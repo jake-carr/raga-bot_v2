@@ -1,0 +1,33 @@
+{
+  "name": "raga-bot_v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jake-carr/raga-bot_v2.git"
+  },
+  "keywords": [
+    "raga",
+    "discord bot"
+  ],
+  "author": "jake carr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jake-carr/raga-bot_v2/issues"
+  },
+  "homepage": "https://github.com/jake-carr/raga-bot_v2",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^4.4.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "nodemon": "^2.0.10",
+    "ytdl-core": "^4.8.3"
+  }
+}
